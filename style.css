@@ -1,0 +1,133 @@
+
+#currentTicked
+{
+    background-color: #5d0c0c;
+    border : black;
+
+}
+
+body{
+    margin: 0;
+    padding-top: 7em;
+    color: whitesmoke;
+    background-color: black;
+    font-family: "Cascadia Code";
+}
+.background{
+    z-index: -1;
+    margin: 0;
+    height: 100%;
+    position: fixed;
+}
+.left{
+    left: 0;
+}
+nav.navbar {
+    background-color: #333333;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+nav.navbar img
+{
+    width: 16rem;
+    padding: 1rem;
+}
+
+nav.navbar a {
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    position: static;
+    font-size: 1.5rem;
+    border-radius: .75rem;
+}
+
+nav.navbar a:last-child{
+    margin-right: 5em;
+}
+
+nav.navbar a:hover {
+    background-color: #6c0e0e;
+    letter-spacing: 0.25rem;
+    box-shadow: 0 0 35px #a42424;
+}
+
+nav.navbar a:before{
+    position: absolute;
+    inset:2px;
+}
+
+#InlineBox{
+    margin:  0 8em;
+    padding-inline: 3.5em 0;
+    background-image: linear-gradient(
+            #404040,
+            #aa0c14);
+
+    box-shadow: white;
+}
+
+.footer{
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    position: absolute;
+    background: #333333;
+    padding-top: 1em;
+
+}
+.footer *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 2px 5px;
+}
+a:visited{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.socialMedia a{
+    text-align: center;
+    padding-right: 10px;
+    font-size: 0;
+    color: #f2f2f2;
+    border-radius: 100%;
+}
+.socialMedia img{
+    width: 3.3rem;
+}
+.socialMedia img:hover{
+    filter: invert(1);
+}
+
+.blue{
+   filter: hue-rotate(250deg)
+}
+.green{
+   filter: hue-rotate(160deg)
+}
+
+.orange{
+    filter: hue-rotate(50deg);
+}
