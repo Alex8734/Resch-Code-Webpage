@@ -1,0 +1,61 @@
+.contacts{
+
+}
+.contact-item{
+    display:flex;
+    align-items: center;
+    padding: .4em;
+}
+.contact-item img{
+    width: 1.4em;
+}
+
+.contact-item:hover img{
+    filter: invert(1);
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-group.message {
+    flex-direction: row;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 25%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-bottom: 1rem;
+}
+
+textarea{
+    width: 50%;
+    height: 15em;
+    position: absolute;
+    left: 35%;
+    top: 22em;
+}
+#message-label{
+    position: absolute;
+    left: 35%;
+}
+
+
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+

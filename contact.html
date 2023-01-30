@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title></title>
   <link href="style.css" rel="stylesheet">
+  <link href="contact-style.css" rel="stylesheet">
 </head>
 <body>
 
@@ -16,7 +17,50 @@
   <a href="contact.html" id="currentTicked">Contact</a>
 </nav>
 
-<div id="InlineBox">
+<div id="InlineBox" class="green">
+  <h1>Contact</h1>
+  <div class="contacts">
+    <div class="contact-item">
+      <img src="src/mailLogo.png" alt="mail">
+      <a href="mailto:alexander@resch-web.at">alexander@resch-web.at</a>
+    </div>
+    <div class="contact-item">
+      <img src="src/phone.png" alt="phone">
+      <a href="tel:06606101650">+43(0)6606101650</a>
+    </div>
+    <div class="contact-item">
+      <img src="src/location-pin.png" alt="location">
+      <a href="https://www.google.com/maps/place/Nei%C3%9Fing+41,+4863+Nei%C3%9Fing">Neißing 41, 4863 Seewalchen</a>
+    </div>
+    <div class="contact-item">
+      <img src="src/twitter.png" alt="twitter">
+      <a href="https://twitter.com/AlexR32216430">Alexander Resch</a>
+    </div>
+    <div class="contact-item">
+      <img src="src/gitLogo.png" alt="github">
+      <a href="https://github.com/Alex8734">Alex8734</a>
+    </div>
+  </div>
+
+  <h1>Formular</h1>
+  <div class="form-group">
+    <label id="message-label" for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </div>
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" name="phone" required>
+  </div>
+
+  <button type="submit">Submit</button>
 
 
 </div>
