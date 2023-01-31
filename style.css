@@ -78,14 +78,13 @@ nav.navbar a:before{
     box-shadow: white;
     padding-bottom: .6em;
     padding-top: .6em;
-
+    min-height: 43em;
 }
 
 .footer{
     width: 100%;
     z-index: 1;
     bottom: 0;
-    position: absolute;
     background: #333333;
     padding-top: 1em;
     padding-bottom: 1em;
