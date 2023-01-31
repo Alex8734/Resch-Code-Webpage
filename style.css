@@ -77,6 +77,7 @@ nav.navbar a:before{
 
     box-shadow: white;
     padding-bottom: .6em;
+    padding-top: .6em;
 }
 
 .footer{
