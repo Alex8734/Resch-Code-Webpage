@@ -78,7 +78,7 @@ nav.navbar a:before{
     box-shadow: white;
     padding-bottom: .6em;
     padding-top: .6em;
-    min-height: 43em;
+    min-height: calc(100vh - 21.6em)
 }
 
 .footer{
