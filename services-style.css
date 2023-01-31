@@ -1,3 +1,30 @@
-li{
-    padding: 2em;
+
+#tg {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
 }
+
+#tg td, #tg th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tg tr:nth-child(even)
+{
+    background-color: #6c0e0e;
+}
+
+#tg tr:hover
+{
+    background-color: #dddddd70;
+}
+
+#tg th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6c0e0e;
+    color: white;
+}
+
